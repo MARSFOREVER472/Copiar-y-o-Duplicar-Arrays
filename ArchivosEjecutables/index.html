@@ -18,6 +18,10 @@
 
     <h2>console.log('arr2 Array:', arr2);</h2>
 
+    <h2>// Método push():</h2>
+
+    <h2>// Se usa para insertar un elemento dentro de un Array.</h2>
+
     <h2>console.log('arr Array:', arr);</h2>
 
     <h2>// arr2.push('Sao Paulo');</h2>
@@ -31,6 +35,94 @@
     <h2>// We have added an item to arr2</h2>
 
     <h2>// But, the original array(arr) got modified too</h2>
+
+    <h2>En JavaScript, cuando tratamos de copiar un Array usando '=' (Operador de asignación), no lograremos lo que se espera!</h2>
+
+    <h2>Al usar el operador '=', estaremos copiando la referencia al Array original y los valores existentes en ese Array.</h2>
+
+    <h2>// Método 2: Utilizando slice().</h2>
+
+    <h2>let coloresPrimarios = ["Rojo",  "Azul", "Amarillo"];</h2>
+
+    <h2>let nuevosColores = coloresPrimarios.slice();</h2>
+        
+    <h2>console.log(coloresPrimarios);</h2>
+
+    <h2>console.log(nuevosColores);</h2>
+
+    <h2>nuevosColores.push('Verde');</h2>
+
+    <h2>console.log('**********Nuevo Color Añadido!!!!**********');</h2>
+        
+    <h2>console.log(coloresPrimarios);</h2>
+        
+    <h2>console.log(nuevosColores);</h2>
+
+    <h2>NOTA: Únicamente el Array "nuevosColores" fue modificado!!!!!</h2>
+
+    <h2>// Método 3: Utilizando spread operator.</h2>
+
+    <h2>let array1 = ['aa', 12, 25, 'bb'];</h2>
+        
+    <h2>let array2 = [...array1];</h2>
+        
+    <h2>console.log(array1);</h2>
+        
+    <h2>console.log(array2);</h2>
+        
+    <h2>array2.push('Sí');</h2>
+        
+    <h2>console.log('**********Sentencia Añadida!!!!!**********');</h2>
+        
+    <h2>console.log(array1);</h2>
+        
+    <h2>console.log(array2);</h2>
+        
+    <h2>// Si hacemos estos cambios en "array2", éstos sólo afectarán a dicho arreglo.</h2>
+
+    <h2>// De la forma tradicional | Array dentro de otro Array.</h2>
+
+    <h2>let arregloTradicional1 = ['a', 'b'];</h2>
+
+    <h2>let arregloTradicional2 = [arregloTradicional1, 'c', 'd'];</h2>
+
+    <h2>console.log(arregloTradicional2);</h2>
+
+    <h2>// De la forma más moderna posible: Mediante un Spread Operator...</h2>
+
+    <h2>let miArreglo1 = ['dd', 'gg', 'zz'];</h2>
+        
+    <h2>let miArreglo2 = [...miArreglo1, 'ff', 22, 'kk'];</h2>
+        
+    <h2>console.log(miArreglo2);</h2>
+
+    <h2>// Otra forma más avanzada: mediante 2 variables combinadas con un Spread Operator...</h2>
+
+    <h2>let arreglo1 = ['ZZ', 'rr', 72, 'TT', 10];</h2>
+        
+    <h2>let arreglo2 = ['MA', 'RU', 'SE', 'RO'];</h2>
+        
+    <h2>let arreglo3 = [...arreglo1, ...arreglo2];</h2>
+        
+    <h2>console.log(arreglo3);</h2>
+
+    <h2>// Método final: utilizando 'Array.from()'...</h2>
+
+    <h2>let arregloFinal1 = ['automovil', 'stationWagons', 'camioneta'];</h2>
+        
+    <h2>let arregloFinal2 = Array.from(arregloFinal1);</h2>
+        
+    <h2>console.log(arregloFinal1);</h2>
+        
+    <h2>console.log(arregloFinal2);</h2>
+        
+    <h2>arregloFinal2.push('bus');</h2>
+        
+    <h2>console.log("**********VEHÍCULO AÑADIDO!!!!!**********");</h2>
+        
+    <h2>console.log(arregloFinal1);</h2>
+        
+    <h2>console.log(arregloFinal2);</h2>
 
     <script src="script.js"></script>
     
