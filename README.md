@@ -4,4 +4,4 @@
 
 ### **_Cómo copiar y/o duplicar un Array utilizando Javascript:_**
 
-- Fundamentos de Javascript.
+- _Fundamentos de Javascript._
