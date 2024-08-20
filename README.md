@@ -7,3 +7,4 @@
 - **_Fundamentos de Javascript._**
 
 - **_Aprende a manipular Arrays (Arreglos) en Javascript!_**
+En este vídeo vamos a aprender a manipular los Arrays en Javascript!
