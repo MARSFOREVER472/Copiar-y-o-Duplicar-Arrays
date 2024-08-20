@@ -17,4 +17,4 @@
 - **_Y en Javascript no todo iba a ser diferente!_**
 
 - **_Conocer las características de los Arrays y saber manipularlos es una habilidad que todos los desarrolladores en Javascript deben poseer._**
-- En el vídeo te mostramos 4 métodos distintos que se pueden usar para copiar o duplicar un Array en Javascript.
+- En el proyecto te mostramos 4 métodos distintos que se pueden usar para copiar o duplicar un Array en Javascript.
