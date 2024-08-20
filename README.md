@@ -8,4 +8,4 @@
 
 - **_Aprende a manipular Arrays (Arreglos) en Javascript!_**
 
-- _En este proyecto vamos a aprender a manipular los Arrays en Javascript!_
+- **_En este proyecto vamos a aprender a manipular los Arrays en Javascript!_**
