@@ -14,4 +14,4 @@
 
 - **_Los Arrays (arreglos) son una de las estructuras de datos más importantes en todos los lenguajes de programación._**
 
-**_Y en Javascript no todo iba a ser diferente!_**
+- **_Y en Javascript no todo iba a ser diferente!_**
