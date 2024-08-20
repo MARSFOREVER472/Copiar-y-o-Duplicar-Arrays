@@ -15,3 +15,4 @@
 - **_Los Arrays (arreglos) son una de las estructuras de datos más importantes en todos los lenguajes de programación._**
 
 - **_Y en Javascript no todo iba a ser diferente!_**
+Conocer las características de los Arrays y saber manipularlos es una habilidad que todos los desarrolladores en Javascript deben poseer.
