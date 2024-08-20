@@ -16,4 +16,4 @@
 
 - **_Y en Javascript no todo iba a ser diferente!_**
 
-**_Conocer las características de los Arrays y saber manipularlos es una habilidad que todos los desarrolladores en Javascript deben poseer._**
+- **_Conocer las características de los Arrays y saber manipularlos es una habilidad que todos los desarrolladores en Javascript deben poseer._**
