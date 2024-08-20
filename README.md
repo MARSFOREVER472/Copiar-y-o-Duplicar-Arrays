@@ -10,4 +10,4 @@
 
 - **_En este proyecto vamos a aprender a manipular los Arrays (Arreglos) en Javascript!_**
 
-En esto también queremos mostrarte 4 maneras y/o métodos distintos de copiar o duplicar un Array utilizando código en Javascript.
+_En esto también queremos mostrarte 4 maneras y/o métodos distintos de copiar o duplicar un Array utilizando código en Javascript._
